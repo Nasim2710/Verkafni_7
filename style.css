@@ -289,7 +289,18 @@ a:active {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
     }
+    main section section {
+        display: flex;
+        flex-direction: column;
+    }
 
+    main section section p {
+        order: 1;
+    }
+
+    main section section img {
+        order: 2;
+    }
 
     footer {
 
